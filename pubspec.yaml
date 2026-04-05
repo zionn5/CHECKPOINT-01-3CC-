@@ -1,0 +1,31 @@
+name: ZIKALVIN
+description: ZIKALVIN é um projeto de e-commerce fictício desenvolvido por alunos do curso de Desenvolvimento Mobile da FIAP. O aplicativo apresenta uma interface moderna e intuitiva, oferecendo uma variedade de produtos relacionados à cultura pop, como camisetas, canecas e bonés. O objetivo do projeto é proporcionar uma experiência de compra agradável e eficiente para os usuários, além de demonstrar as habilidades adquiridas pelos alunos durante o curso. O aplicativo inclui funcionalidades como navegação fácil, detalhes dos produtos, carrinho de compras e opções de pagamento, tudo isso em um ambiente visualmente atraente e responsivo.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/bone_made_in_brazil.jpeg
+    - assets/images/caneca.jpeg
+    - assets/images/camisa.jpeg
+    - assets/images/whatsapp.png
+    - assets/images/instaicon.png
+    - assets/images/tiktokicon.png
+    - assets/images/visacicon.png
+    - assets/images/mastecardicon.png
+    - assets/images/pix.png
+    - assets/images/eloicon.png
